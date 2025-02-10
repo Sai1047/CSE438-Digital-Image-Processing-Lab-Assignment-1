@@ -1,9 +1,121 @@
-<h3 align="center">Digital Image Processing Lab Report Introduction This report provides an overview of the Digital Image Processing Lab, detailing the objectives, methodologies, and results of the exercises conducted. The focus is on implementing fundamental image processing techniques using Python and OpenCV. Author Audity GhoshLecturer, Department of Computer Science & EngineeringUniversity of Information Technology and Sciences (UITS) Course Details Course Code: CSE 438 Course Title: Digital Image Processing Lab Section: 8A (50th Batch) Date: 5 February, 2025 Objectives The primary objectives of this lab session are: Understanding image processing operations in Python. Extracting a specific region from an image. Converting an image to HSV color space and analyzing its components. Lab Tasks Task 1: Extracting a 100×100 Region from the Center of an Image Load an image from a given URL. Determine the center coordinates of the image. Extract a 100×100 pixel region from the center. Display both the original and cropped image for comparison. Task 2: Converting an Image to HSV and Visualizing Components Convert the input image from RGB to HSV color space. Extract and visualize the Hue, Saturation, and Value components individually in grayscale. Analyze how HSV representation differs from RGB. Methodology Tools and Libraries Used Python 3.x OpenCV (cv2) NumPy Matplotlib Implementation Image Loading: Images are loaded from a URL using OpenCV. Region Extraction: Using image slicing, a 100×100 pixel region is extracted from the center. HSV Conversion: The cv2.cvtColor() function is used to transform RGB images into HSV format. Visualization: The extracted components are displayed using Matplotlib. Results The extracted image region and HSV components are successfully visualized, demonstrating: The ability to manipulate image regions programmatically. How HSV color space represents image information differently than RGB. How to Run (Google Colab) Open Google Colab: Google Colab Clone this repository: !git clone https://github.com/your-username/dip-lab.git Navigate to the repository: %cd dip-lab Open and execute the Jupyter Notebook: !jupyter notebook Student_Copy_DIP_Lab_Day_2.ipynb Conclusion This lab session successfully demonstrated basic image processing techniques in Python. The extraction of image regions and color space transformations provide fundamental insights into digital image processing. Future Work Extend the implementation to handle real-time image inputs. Apply edge detection and filtering techniques. Develop interactive tools for image manipulation. License This project is for educational purposes. Feel free to use and modify it as needed. Acknowledgments Special thanks to Audity Ghosh for guidance and support in this lab.</h3>
+##Digital Image Processing Lab Report
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/santo-dev.vercel.app" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="santo-dev.vercel.app" height="30" width="40" /></a>
-</p>
+**Introduction**
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+This report provides an overview of the Digital Image Processing Lab, detailing the objectives, methodologies, and results of the exercises conducted. The focus is on implementing fundamental image processing techniques using Python and OpenCV.
+
+**Faculty**
+
+Audity Ghosh Lecturer, Department of Computer Science & EngineeringUniversity of Information Technology and Sciences (UITS)
+
+
+**Course Details**
+
+Course Code: CSE 438
+
+Course Title: Digital Image Processing Lab
+
+Section: 8A (50th Batch)
+
+Date: 5 February, 2025
+
+
+**Objectives**
+
+The primary objectives of this lab session are:
+
+Understanding image processing operations in Python.
+
+Extracting a specific region from an image.
+
+Converting an image to HSV color space and analyzing its components.
+
+
+**Lab Tasks**
+
+*Task 1: Extracting a 100×100 Region from the Center of an Image*
+
+Load an image from a given URL.
+
+Determine the center coordinates of the image.
+
+Extract a 100×100 pixel region from the center.
+
+Display both the original and cropped image for comparison.
+
+*Task 2: Converting an Image to HSV and Visualizing Components*
+
+Convert the input image from RGB to HSV color space.
+
+Extract and visualize the Hue, Saturation, and Value components individually in grayscale.
+
+Analyze how HSV representation differs from RGB.
+
+
+**Methodology**
+
+Tools and Libraries Used
+
+Python 3.x
+
+OpenCV (cv2)
+
+NumPy
+
+Matplotlib
+
+
+*Implementation*
+
+Image Loading: Images are loaded from a URL using OpenCV.
+
+Region Extraction: Using image slicing, a 100×100 pixel region is extracted from the center.
+
+HSV Conversion: The cv2.cvtColor() function is used to transform RGB images into HSV format.
+
+Visualization: The extracted components are displayed using Matplotlib.
+
+
+*Results*
+
+The extracted image region and HSV components are successfully visualized, demonstrating:
+
+The ability to manipulate image regions programmatically.
+
+How HSV color space represents image information differently than RGB.
+
+How to Run (Google Colab)
+
+Open Google Colab: Google Colab
+
+Clone this repository:
+
+!git clone https://github.com/your-username/dip-lab.git
+
+Navigate to the repository:
+
+%cd dip-lab
+
+Open and execute the Jupyter Notebook:
+
+!jupyter notebook santo_2125051047_8A.ipynb
+
+*Conclusion*
+
+This lab session successfully demonstrated basic image processing techniques in Python. The extraction of image regions and color space transformations provide fundamental insights into digital image processing.
+
+*Future Work*
+
+Extend the implementation to handle real-time image inputs.
+
+Apply edge detection and filtering techniques.
+
+Develop interactive tools for image manipulation.
+
+*License*
+
+This project is for educational purposes. Feel free to use and modify it as needed.
+
+*Acknowledgments*
+
+Special thanks to Audity Ghosh for guidance and support in this lab.
