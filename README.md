@@ -65,7 +65,7 @@ NumPy
 Matplotlib
 
 
-*Implementation*
+**Implementation**
 
 Image Loading: Images are loaded from a URL using OpenCV.
 
@@ -76,7 +76,7 @@ HSV Conversion: The cv2.cvtColor() function is used to transform RGB images into
 Visualization: The extracted components are displayed using Matplotlib.
 
 
-*Results*
+**Results**
 
 The extracted image region and HSV components are successfully visualized, demonstrating:
 
@@ -100,11 +100,11 @@ Open and execute the Jupyter Notebook:
 
 !jupyter notebook santo_2125051047_8A.ipynb
 
-*Conclusion*
+**Conclusion**
 
 This lab session successfully demonstrated basic image processing techniques in Python. The extraction of image regions and color space transformations provide fundamental insights into digital image processing.
 
-*Future Work*
+**Future Work**
 
 Extend the implementation to handle real-time image inputs.
 
@@ -112,7 +112,7 @@ Apply edge detection and filtering techniques.
 
 Develop interactive tools for image manipulation.
 
-*License*
+**License**
 
 This project is for educational purposes. Feel free to use and modify it as needed.
 
