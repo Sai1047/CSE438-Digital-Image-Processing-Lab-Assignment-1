@@ -88,10 +88,6 @@ How to Run (Google Colab)
 
 Open Google Colab: Google Colab
 
-Clone this repository:
-
-!git clone https://github.com/your-username/dip-lab.git
-
 Navigate to the repository:
 
 %cd dip-lab
@@ -100,9 +96,11 @@ Open and execute the Jupyter Notebook:
 
 !jupyter notebook santo_2125051047_8A.ipynb
 
+
 **Conclusion**
 
 This lab session successfully demonstrated basic image processing techniques in Python. The extraction of image regions and color space transformations provide fundamental insights into digital image processing.
+
 
 **Future Work**
 
@@ -112,10 +110,11 @@ Apply edge detection and filtering techniques.
 
 Develop interactive tools for image manipulation.
 
+
 **License**
 
 This project is for educational purposes. Feel free to use and modify it as needed.
 
-*Acknowledgments*
+**Acknowledgments**
 
 Special thanks to Audity Ghosh for guidance and support in this lab.
