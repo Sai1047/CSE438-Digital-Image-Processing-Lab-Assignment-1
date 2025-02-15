@@ -6,12 +6,14 @@ This report provides an overview of the Digital Image Processing Lab, detailing 
 
 **Faculty**
 
-Audity Ghosh, Lecturer, Department of Computer Science & EngineeringUniversity of Information Technology and Sciences (UITS)
+Audity Ghosh, Lecturer
+Department of Computer Science & Engineering University of Information Technology and Sciences (UITS)
 
 **Submitted by**
 
 Md. Saiful Islam Santo 
-ID: 2125051047 Section: 8A Bathch: 50
+ID: 2125051047 
+Section: 8A Bathch: 50
 
 
 **Course Details**
