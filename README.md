@@ -124,4 +124,4 @@ This project is for educational purposes. Feel free to use and modify it as need
 
 **Acknowledgments**
 
-Special thanks to Audity Ghosh for guidance and support in this lab.
+Special thanks to our honorable faculty Audity Ghosh for guidance and support in this lab.
