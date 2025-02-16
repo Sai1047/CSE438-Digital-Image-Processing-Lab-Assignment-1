@@ -1,4 +1,4 @@
-### Digital Image Processing Lab Report 01
+### Digital Image Processing Lab Report
 
 **Introduction**
 
